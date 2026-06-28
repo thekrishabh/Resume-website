@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+    color: white;
+    font-family: Arial;
+    line-height:normal;
+}
+header {
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+header h1 {
+    font-size: 40px;
+}
+.role {
+    color: lightblue;
+}
+section {
+    margin: 17px;
+    padding: 17px;
+}
+#skills ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+#skills li {
+    background-color: lightblue;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+#skills li:hover {
+    background-color: blue;
+    color: white;
+}
